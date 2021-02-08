@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascometro</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="Assets/Icone.png">
+</head>
+<body onload="executar()">
+    <main>
+        <h1>Churrascometro</h1>
+        <p class="Texto">O churrasco será para <br><input id="Adultos" class="Inputs" type="number" min="0"> <span>adulto</span><br>
+        <input id="Crianças" class="Inputs" type="number" min="0"> <span>criança</span><br>
+        e vai durar <input id="Duração" class="Inputs" type="number" min="0"> <span>hora</span>.</p>
+        <button id="Calcular">Oque devo comprar?</button>
+    </main>
+    <div id="Resultados">
+            <h1>Você deve comprar:</h1>
+            <p id="RT" class='Texto'></p>
+    </div>
+
+
+    
+    <script src="js.js"></script>
+</body>
+</html>
