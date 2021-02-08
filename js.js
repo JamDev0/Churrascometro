@@ -104,7 +104,7 @@ function executar()
 
     function ReAnimação()
     {
-        if(document.getElementById('Resultados').getBoundingClientRect().top != 20 && window.innerWidth < 800)
+        if(document.getElementById('Resultados').getBoundingClientRect().top != 20 && window.innerWidth > 800)
         {
         let Resultado = document.getElementById('Resultados').style;
         let Main = document.getElementsByTagName('main')[0];
