@@ -96,7 +96,7 @@ function executar()
 
         Resultado.transition = 'z-index 0s ease 1.6s, top 1.5s cubic-bezier(0.82, 0.01, 0.6, 0.38) 0s';
         Resultado.zIndex = '3';
-        setTimeout(function(){Main.style.borderBottomLeftRadius = '0px'; Main.style.borderBottomRightRadius = '0px'}, 1199);
+        setTimeout(function(){Main.style.borderBottomLeftRadius = '0px'; Main.style.borderBottomRightRadius = '0px'}, 1499);
         Resultado.visibility = 'visible';
         Resultado.top = Main.getBoundingClientRect().top + Main.getBoundingClientRect().height + 'px';
     }
